@@ -1,0 +1,50 @@
+{
+ "name": "Dota2Wiki",
+ "short_name": "D2W",
+    "description": "Web Community Leaders landing page",
+    "lang": "en-GB",
+    "start_url": ".",
+    "display": "standalone",
+    "theme_color": "#E6E6FA",
+    "background_color": "#E6E6FA",
+    "prefer_related_application": false,
+    "orientation": "portrait",
+ "icons": [
+  {
+   "src": "/img/dota_36x36.jpg",
+   "sizes": "36x36",
+   "type": "image/png"
+  },
+  {
+    "src": "/img/dota_48x48.jpg",
+    "sizes": "48x48",
+    "type": "image/png"
+  },
+  {
+    "src": "/img/dota_72x72.jpg",
+    "sizes": "72x72",
+    "type": "image/png"
+  },
+  {
+    "src": "/img/dota_96x96.jpg",
+    "sizes": "96x96",
+    "type": "image/png"
+  },
+  {
+    "src": "/img/dota_144x144.jpg",
+    "sizes": "144x144",
+    "type": "image/png"
+  },
+  {
+    "src": "/img/dota_192x192.jpg",
+    "sizes": "192x192",
+    "type": "image/png"
+  },
+  {
+    "src": "/img/dota_512x512.jpg",
+    "sizes": "512x512",
+    "type": "image/png",
+    "purpose": "maskable"
+  }
+ ]
+}

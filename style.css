@@ -1,0 +1,273 @@
+.menu {
+	text-align: center;
+	width: 100%;
+	position: fixed;
+	top:0;
+	background-color: #fff;
+	opacity: 0.8;
+}
+.menu a {
+	text-decoration: none;
+	color: black;
+	display: inline-block;
+	width: 200px;
+	padding: 20px 40px;
+}
+.menu a:hover,
+.dropdown:hover button {
+	background-color: #CCC;
+}
+.dropdown {
+	display: inline-block;
+}
+.dropdown-content {
+	display: none;
+	background-color: #fff;
+	position: absolute;
+	width: 140px;
+}
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+.dropdown-content a{
+	padding: 12px 0;
+	width: 100%;
+	display: block;
+}
+.dropdown-content a:hover {
+	background-color: #ddd;
+}
+.dropdown button {
+	font-size: 16px;
+	border: none;
+	outline: none;
+	background-color: inherit;
+	font-family: inherit;
+	cursor: pointer;
+	padding: 20px 40px;
+	color: black;
+}
+body {
+	margin: 0;
+	font-family: sans-serif;
+}
+.header {
+	
+	background-image: url(img/logo-black.png);
+	padding: 200px 0;
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-attachment: fixed;
+	margin: 58px;
+}
+.header a {
+	text-decoration: none;
+	color: black;
+	padding: 12px 24px;
+	background-color: white;
+	border-radius: 10px;
+}
+.header a:hover {
+	background-color: #055b73;
+	transition: 0.7s;
+	color: white;
+}
+.header p {
+	margin: 45px 0;
+}
+#about-company h2 {
+	text-align: center;
+}
+#about-company {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 40px 0;
+}
+#about-company img {
+	float: right;
+	width: 400px;
+	margin: 30px;
+	margin-top: 0;
+}
+#team {
+	text-align: center;
+}
+.member {
+	background-color: #f1f1f1;
+	display: inline-block;
+	width: 20%;
+	padding: 20px;
+	margin: 20px 10px;
+	box-shadow: 0 2px 5px gray;
+	min-width: 340px;
+	max-width: 340px;
+	text-align: left;
+}
+.member h3 {
+	font-weight: 400;
+	font-size: 24px;
+}
+.member a {
+	text-decoration: none;
+	color: white;
+	padding: 14px 0;
+	background-color: #055b73;
+	border-radius: 10px;
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+}
+.member a:hover {
+	background-color: #054658;
+	transition: 0.7s;
+}
+.member .pos {
+	opacity: 0.6;
+}
+.member img {
+	width: 100%;
+}
+#prices {
+	background-color: #616161;
+	text-align: center;
+	padding: 50px 0;
+}
+#prices h2, 
+#prices .description{
+	color: white;
+}
+.tariff {
+	display: inline-block;
+	background-color: white;
+	width: 30%;
+	margin: 10px;
+	min-width: 150px;
+	max-width: 750px;
+	vertical-align: middle;
+}
+.tariff p {
+	border: 1px solid #000;
+	margin: 0;
+	padding: 16px 0;
+}
+.tariff .tariff-head {
+	background-color: black;
+	font-size: 24px;
+	color: white;
+	padding: 32px 0;
+}
+.tariff .best {
+	background-color: #055b73;
+	padding: 48px 0;
+}
+.tariff .tariff-price ,
+.tariff .inday {
+	border: none;
+}
+.tariff a {
+	text-decoration: none;
+	color: white;
+	padding: 14px 0;
+	background-color: #000;
+	border-radius: 10px;
+	display: inline-block;
+	width: 23%;
+	text-align: center;
+}
+.tariff span {
+	font-weight: bold;
+}
+.inday {
+	opacity: 30%;
+}
+.buy {
+	background-color: #f1f1f1;
+}
+.buy a:hover {
+	background-color: #2e2e2e;
+	transition:.7s;
+}
+.tariff-price {
+	font-size: 30px;
+	font-weight: bolder;
+}
+#contacts {
+	text-align: left;
+	background-color: #dbc488;
+	padding: 40px 0;
+}
+.contact-info {
+	text-align: left;
+	background-repeat: no-repeat;
+	background-size: 18px 18px;
+	background-position: left center;
+	margin-left: 1%;
+}
+#contacts input {
+	display: block;
+	width: 50%;
+	padding: 8px;
+	border: none;
+	outline: none;
+	margin: 1%;
+}
+
+#contacts button {
+	background-color: #000;
+	border: none;
+	outline: none;
+	color: #fff;
+	padding: 10px 16px;
+	border-radius: 10px;
+	cursor: pointer;
+}
+#contacts button:hover {
+	background-color: #fff;
+	color: #888;
+	transition: .7s;
+}
+
+#contacts>form>p {
+	background-color: #054658;
+}
+
+.footer {
+	background-color: #000;
+	color: #fff;
+}
+
+@media (max-width: 575px) {
+	.menu {
+		position: inherit;
+	}
+	.header {
+		background-size: cover;
+		background-position: center center;
+		min-height: 300px;
+		padding: 100px 10px;
+		margin-top: 0;
+	}
+	.menu a{
+		width: 100%;
+		padding: 20px 0;
+	}
+	#about-company img {
+		width: 100%;
+		float: none;
+		margin: 10px 0;
+	}
+	.member {
+		min-width: 80%;
+	}
+	.tariff {
+		width: 90%;
+	}
+	#contacts input {
+		padding: 12px 8px;
+		margin: 5px 0;
+	}
+	#about-company {
+		text-align: justify;
+		padding: 0 5%;
+	}
+}
